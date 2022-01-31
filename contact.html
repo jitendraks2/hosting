@@ -111,6 +111,8 @@ input[type="text"]{
         <h2>Contact Us</h2>
         <form
       name="contactform"
+      data-netlify="true"
+      data-netlify-recaptcha='true'
         
     >
       <input
@@ -151,6 +153,8 @@ input[type="text"]{
         class="feedback-input"
         placeholder="Query"
       ></textarea>
+
+      <div data-netlify-recaptcha="true"></div>
       <input type="submit" value="SUBMIT" />
     </form>
       </section>
